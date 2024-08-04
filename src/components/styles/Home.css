@@ -1,0 +1,168 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    background:#f8f9fa;
+  }
+  .card{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 14px 80px 18px 36px;
+  cursor: pointer;
+}
+  .card:hover{
+       transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  }
+  
+  .card h3{
+    font-weight: 500;
+    font-size: 25px;
+  }
+  
+  .card img{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    max-height: 120px;
+  }
+  
+  .card-1{
+    background-image: url(https://ionicframework.com/img/getting-started/ionic-native-card.png);
+        background-repeat: no-repeat;
+      background-position: right;
+      background-size: 80px;
+      
+  }
+  .text-error{
+    font-family: inherit;
+	line-height: inherit;
+	text-transform: unset;
+	text-rendering: optimizeLegibility;
+		font-size: 0.9rem;
+        font-weight: 600;
+		color: var(--color-red);
+        margin-bottom: 0.20rem;
+        margin-top:0.5rem;
+	
+}
+  .navbar-right{
+    min-width:450px; /*or I can probably just use columns*/
+  }
+  .navbar-right form{
+    width:100%;
+  }
+  .navbg{
+    background-color:#ffffff;
+  }
+  .font-weight{
+    font-weight:545;
+    font-size:34px;  
+  }
+  .textcolor{
+    font-size:30px;
+    font-weight:530;
+    background: -webkit-linear-gradient( #17a2b8,#808080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .colorgrad{
+    background: -webkit-linear-gradient(#808080,#808080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .text-normal {
+	font-family: inherit;
+	line-height: inherit;
+	text-transform: unset;
+	text-rendering: optimizeLegibility;
+    font-size: 1rem;
+    font-weight: 400;
+	color: var(--color-black);
+	
+}
+  .custom-container {
+    
+    /* display: flex; */
+    display: inline-block; 
+    flex-direction: row;
+    padding-right: 20px;
+    width: 33.33%; /* This is approximately equivalent to col-md-4 */
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.container-flow {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container {
+    width: 100%;
+    max-width: 1200px; /* Adjust as necessary */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.button-style{
+  padding-bottom: 40px;
+  margin-bottom:20px;
+  padding-bottom: 40px;
+  margin-bottom:20px;
+}
+.text-style{
+  padding-left: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #007bff;
+}
+
+.btn {
+    display: inline-block;
+    padding: 5px 10px; 
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 5px;
+}
+
+.btn:hover {
+    background-color: #007bff;
+}
+
+
+.play-icon {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid  #fff; /* Change color as needed */
+    margin: 5px;
+    margin-top: 10px;
+    rotate:90deg;
+    background-color: #007bff;
+}
+
+  @media(max-width: 990px){
+    .card{
+      margin: 20px;
+    }
+  } 
+  
+  
+  
